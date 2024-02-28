@@ -1,13 +1,27 @@
 
 /* Your CSS Code here. */
 .item{
+	flex-wrap: wrap;
 	display: flex;
 	justify-content: space-between;
 }
 .green{
-	border: 1px solid black;
-	padding: 50px 50px 50px 50px;
+	width: 100px;
+	height: 100px;
 	background-color: green;
-	border: none;
-	text-align: left;
+}
+.blue{
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+}
+.red{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+}
+.holder{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 5px;
 }
