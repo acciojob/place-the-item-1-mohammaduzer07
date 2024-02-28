@@ -1,27 +1,21 @@
-
 /* Your CSS Code here. */
-.item{
-	flex-wrap: wrap;
+.holder{
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
-.green{
+.item-3{
 	width: 100px;
 	height: 100px;
 	background-color: green;
 }
-.blue{
+.item-2{
 	width: 100px;
 	height: 100px;
 	background-color: blue;
 }
-.red{
+.item-1{
 	width: 100px;
 	height: 100px;
 	background-color: red;
-}
-.holder{
-	display: flex;
-	flex-wrap: wrap;
-	gap: 5px;
 }
