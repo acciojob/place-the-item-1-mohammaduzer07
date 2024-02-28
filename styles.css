@@ -1,2 +1,13 @@
 
 /* Your CSS Code here. */
+.item{
+	display: flex;
+	justify-content: space-between;
+}
+.green{
+	border: 1px solid black;
+	padding: 50px 50px 50px 50px;
+	background-color: green;
+	border: none;
+	text-align: left;
+}
